@@ -2,7 +2,7 @@
 # SRS §20.2: python:3.12-slim builder + runtime, non-root user flowforge (UID 10001)
 
 # ── Stage 1: Build stage ───────────────────────────────────────────────────
-FROM python:3.12-slim AS builder
+FROM python:3.15-slim AS builder
 
 WORKDIR /build
 
@@ -29,7 +29,7 @@ RUN if [ -f uv.lock ]; then \
 
 
 # ── Stage 2: Runtime stage ─────────────────────────────────────────────────
-FROM python:3.12-slim AS runtime
+FROM python:3.15-slim AS runtime
 
 # Runtime env vars
 ENV PYTHONUNBUFFERED=1 \

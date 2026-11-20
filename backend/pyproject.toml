@@ -31,7 +31,7 @@ dependencies = [
     # HTTP client (for http_request action)
     "httpx>=0.27.0,<1.0.0",
     # Schedule parsing
-    "croniter>=3.0.0,<4.0.0",
+    "croniter>=3.0.0,<8.0.0",
     # Form data support
     "python-multipart>=0.0.18,<1.0.0",
 ]

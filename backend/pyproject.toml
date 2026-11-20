@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     # Web framework
-    "fastapi>=0.115.0,<0.116.0",
+    "fastapi>=0.115.0,<0.164.0",
     "uvicorn[standard]>=0.32.0,<1.0.0",
     # Validation & config
     "pydantic>=2.9.0,<3.0.0",

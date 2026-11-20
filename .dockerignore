@@ -1,0 +1,44 @@
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets (never in image)
+.env
+.env.local
+
+# Frontend build (backend image only)
+frontend/
+
+# Documentation source
+docs/
+
+# Development compose override
+docker-compose.override.yml
+
+# Scripts (not needed at runtime)
+scripts/
+
+# CI
+.github/
+
+# Alembic config — included; versions/ — included
